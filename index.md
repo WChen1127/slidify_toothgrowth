@@ -9,6 +9,9 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
+github: 
+  user: WChen1127
+  repo: slidify_toothgrowth
 ---
 
 ## Introduction
@@ -49,6 +52,7 @@ qplot(dose, len, data=ToothGrowth, geom=c("point", "smooth"), method="lm", formu
 
 ## Access
 Shiny app: https://weisdata.shinyapps.io/ToothGrowth/
+GitHub: 
 
 
 
