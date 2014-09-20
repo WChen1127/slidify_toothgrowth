@@ -16,19 +16,18 @@ github:
 
 ## Introduction
 
-- Story
-
 Like other rodents, Guinea pigs have teeth that growth continuously while gnawing on their surface. As such, Guniea pigs can keep their teeth at a relatively constant length. It is well established that Vitamin C has play a key role in the tooth growth and maintenance.
 
 This app is used to show the effect of two different Vitamin C delivery methods on the steady-state length of teeth of Guinea pigs.
 
-- Data
 
-RStudio build-in dataset: ToothGrowth
+- RStudio build-in dataset: ToothGrowth
 
-len: Tooth length, numeric
-supp: Supplement type (VC or OJ), factor
-dose: Dose in milligrams, numeric
+-len: Tooth length, numeric
+
+-supp: Supplement type (VC or OJ), factor
+
+-dose: Dose in milligrams, numeric
 
 --- 
 
@@ -47,7 +46,9 @@ qplot(dose, len, data=ToothGrowth, geom=c("point", "smooth"), method="lm", formu
 ## Comparison Results
 
 1. The lengths of guinea pigs' teeth, on average, increased as given more doses of vitamine C, either orange juice or ascorbic acid. 
+
 2. The guinea pigs given orange juice had, on average, longer teeth at than the guinea pigs given ascorbic acid, at the two lower dosage levels.
+
 3. At the highest dosage level, however, there is barely any visible difference between the lengths of the teeth in the guinea pigs.
 
 
