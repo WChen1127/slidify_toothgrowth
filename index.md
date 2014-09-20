@@ -52,7 +52,8 @@ qplot(dose, len, data=ToothGrowth, geom=c("point", "smooth"), method="lm", formu
 
 ## Access
 Shiny app: https://weisdata.shinyapps.io/ToothGrowth/
-GitHub: 
+GitHub: https://github.com/WChen1127/slidify_toothgrowth
+
 
 
 
