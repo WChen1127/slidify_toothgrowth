@@ -19,16 +19,18 @@ github:
 Like other rodents, Guinea pigs have teeth that growth continuously while gnawing on their surface. As such, Guniea pigs can keep their teeth at a relatively constant length. It is well established that Vitamin C has play a key role in the tooth growth and maintenance.
 
 This app is used to show the effect of two different Vitamin C delivery methods on the steady-state length of teeth of Guinea pigs.
+    
+    
+Data
+============
 
-- Data
+- RStudio build-in dataset: **ToothGrowth**
 
--RStudio build-in dataset: ToothGrowth
+- len: Tooth length, numeric
 
--len: Tooth length, numeric
+- supp: Supplement type (VC or OJ), factor
 
--supp: Supplement type (VC or OJ), factor
-
--dose: Dose in milligrams, numeric
+- dose: Dose in milligrams, numeric
 
 --- 
 
