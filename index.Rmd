@@ -24,7 +24,7 @@ This app is used to show the effect of two different Vitamin C delivery methods 
 Data
 ============
 
-- RStudio build-in dataset: **ToothGrowth**
+- RStudio build-in dataset: ToothGrowth
 
 - len: Tooth length, numeric
 
