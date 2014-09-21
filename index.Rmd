@@ -20,8 +20,9 @@ Like other rodents, Guinea pigs have teeth that growth continuously while gnawin
 
 This app is used to show the effect of two different Vitamin C delivery methods on the steady-state length of teeth of Guinea pigs.
 
+- Data
 
-- RStudio build-in dataset: ToothGrowth
+-RStudio build-in dataset: ToothGrowth
 
 -len: Tooth length, numeric
 
